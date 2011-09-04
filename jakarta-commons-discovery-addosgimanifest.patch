@@ -1,0 +1,25 @@
+--- src/conf/MANIFEST.MF.orig	2006-11-30 00:15:55.000000000 +0100
++++ src/conf/MANIFEST.MF	2009-05-27 23:35:42.000000000 +0200
+@@ -6,4 +6,22 @@ Specification-Vendor: The Apache Softwar
+ Implementation-Title: @package@
+ Implementation-Vendor: The Apache Software Foundation
+ Implementation-Version: @version@
++Bundle-ManifestVersion: 2
++Bundle-Name: Jakarta-Commons Discovery
++Specification-Version: 1.0
++Bundle-SymbolicName: org.apache.commons.discovery
++Bundle-Version: 0.2.0.qualifier
++Bundle-Vendor: Eclipse.org
++Bundle-Localization: plugin
++Bundle-RequiredExecutionEnvironment: J2SE-1.4
++Export-Package: org.apache.commons.discovery,
++ org.apache.commons.discovery.ant,
++ org.apache.commons.discovery.jdk,
++ org.apache.commons.discovery.log,
++ org.apache.commons.discovery.resource,
++ org.apache.commons.discovery.resource.classes,
++ org.apache.commons.discovery.resource.names,
++ org.apache.commons.discovery.tools
++Require-Bundle: org.junit;bundle-version="[3.8.0,4.0.0)";resolution:=optional
++Import-Package: org.apache.commons.logging;version="[1.0.4,2.0.0)"
+ 
